@@ -1,0 +1,40 @@
+.mainKnowMe {
+  height: 500px;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 2.5em;
+  color: var(--enhanced-glow-color);
+  text-shadow: 0 0 0.5em var(--glow-color);
+}
+.containerPaperText {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+.containerPaper {
+  margin-right: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.line {
+  height: 200px;
+  border-left: 1px solid var(--enhanced-glow-color);
+}
+
+.containerText {
+  margin-left: 50px;
+}
+
+.text {
+  font-size: 1.2em;
+  color: var(--glow-color);
+}
