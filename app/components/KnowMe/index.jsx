@@ -1,22 +1,13 @@
 import Image from "next/image";
+import Link from "next/link";
 import style from "./knowme.module.css";
+import { certificates } from "@/app/logic/elements/certificates";
 
 export default function KnowMe() {
   return (
     <div className={style.mainKnowMe}>
-      <h1 className={style.title}>Este soy yo</h1>
       <section className={style.containerPaperText}>
-        <div className={style.containerPaper}>
-          <Image
-            src="/certificadoNuclio.png"
-            width={200}
-            height={150}
-            alt="Certificado Nuclio"
-          />
-        </div>
-        <div className={style.line}>
-          <p></p>
-        </div>
+        <h2 className={style.titleText}>Quien soy</h2>
         <div className={style.containerText}>
           <p className={style.text}>
             Después de 18 años, trabajando en unas grandes superficie en la
@@ -27,6 +18,22 @@ export default function KnowMe() {
             por Full Stack en desarrollo web, pero con una formación continuada
             en un sector siempre cambiante y apasionante.
           </p>
+        </div>
+        <div className={style.line}>
+          <p></p>
+        </div>
+        <div className={style.containerPaper}>
+          {certificates.map((item) => (
+            <Link href={`/images/${item.name}`}>
+              <Image
+                src={item.route}
+                width={200}
+                height={150}
+                alt={item.alt}
+                className={style.img}
+              />
+            </Link>
+          ))}
         </div>
       </section>
     </div>

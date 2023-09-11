@@ -14,27 +14,48 @@
 }
 .containerPaperText {
   display: flex;
-  flex-direction: row;
-  margin-top: 50px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .containerPaper {
-  margin-right: 50px;
+  margin-top: 50px;
+  width: 600px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  overflow-x: auto;
+}
+
+.titlePaper {
+  color: var(--enhanced-glow-color);
+  text-shadow: 0 0 0.5em var(--glow-color);
 }
 
 .line {
-  height: 200px;
-  border-left: 1px solid var(--enhanced-glow-color);
+  width: 600px;
+  border-bottom: 1px solid var(--enhanced-glow-color);
 }
 
 .containerText {
   margin-left: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.titleText {
+  color: var(--enhanced-glow-color);
+  text-shadow: 0 0 0.5em var(--glow-color);
 }
 
 .text {
   font-size: 1.2em;
   color: var(--glow-color);
+}
+
+.img {
+  margin-left: 15px;
 }

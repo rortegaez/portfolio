@@ -1,6 +1,7 @@
 export const certificates = [
   {
-    name: "Certificado Full Stack Developer Web en Nuclio Digital School",
-    route: "/cer",
+    name: "nuclio",
+    alt: "Certificado Nuclio School",
+    route: "/certificadoNuclio.png",
   },
 ];

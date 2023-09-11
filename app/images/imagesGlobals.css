@@ -1,0 +1,17 @@
+.containerCertificate {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainTitle {
+  color: var(--enhanced-glow-color);
+  text-shadow: 0 0 0.5em var(--glow-color);
+}
+
+.certificateImg {
+  box-shadow: 0 0 0.5em 0.25em var(--glow-color),
+    0 0 4em 1em var(--glow-spread-color),
+    inset 0 0 0.75em 0.25em var(--glow-color);
+}

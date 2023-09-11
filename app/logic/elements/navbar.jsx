@@ -3,7 +3,7 @@ export const navbar = [
     name: "Inicio",
   },
   {
-    name: "Conozca sobre mí",
+    name: "Quien soy",
   },
   {
     name: "Proyectos",
