@@ -1,3 +1,19 @@
+.containerProject {
+  margin-top: 50px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.containerProjects {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  overflow-x: auto;
+}
 .titleProject {
   font-size: 2.5em;
   color: var(--enhanced-glow-color);
