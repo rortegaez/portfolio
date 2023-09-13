@@ -7,7 +7,7 @@ import style from "./project.module.css";
 export default function Project() {
   return (
     <div className={style.containerProject}>
-      <h1 className={style.titleProject}>Project</h1>
+      <h1 className={style.titleProject}>Proyectos</h1>
       <div className={style.containerProjects}>
         {projects.map((item, index) => (
           <Link href={item.url} key={index}>
