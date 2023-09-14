@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import style from "./knowme.module.css";
 import { certificates } from "@/app/logic/elements/certificates";
+import { rrss } from "@/app/logic/elements/rrss";
 
 export default function KnowMe() {
   return (
@@ -51,6 +52,22 @@ export default function KnowMe() {
             </Link>
           ))}
         </div>
+      </section>
+      <section className={style.line}>
+        <p></p>
+      </section>
+      <section className={style.containerRrss}>
+        {rrss.map((item) => (
+          <Link href={item.web} target="_blank" rel="noopener noreferrer">
+            <Image
+              src={item.route}
+              width={60}
+              height={60}
+              alt={item.alt}
+              className={style.iconsRrss}
+            />
+          </Link>
+        ))}
       </section>
     </div>
   );
