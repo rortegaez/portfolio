@@ -61,8 +61,8 @@ export default function KnowMe() {
           <Link href={item.web} target="_blank" rel="noopener noreferrer">
             <Image
               src={item.route}
-              width={60}
-              height={60}
+              width={40}
+              height={40}
               alt={item.alt}
               className={style.iconsRrss}
             />
