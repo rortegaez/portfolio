@@ -20,3 +20,7 @@
   color: var(--enhanced-glow-color);
   text-shadow: 0 0 0.5em var(--glow-color);
 }
+
+.img {
+  margin-left: 15px;
+}
