@@ -15,7 +15,6 @@ export default function Footer() {
       </div>
       <div className={style.text}>
         <p>Raúl Ortega</p>
-        <p>email: raulor83@gmail.com</p>
       </div>
       <div>{fetchDate()}</div>
     </div>

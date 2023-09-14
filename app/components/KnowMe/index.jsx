@@ -21,7 +21,7 @@ export default function KnowMe() {
               formación continuada en un sector siempre cambiante y apasionante.
             </p>
           </div>
-          <div className={style.containerCV}>
+          {/* <div className={style.containerCV}>
             <Link href="/images/cv">
               <Image
                 src="/RaulOrtegaCV.png"
@@ -32,7 +32,7 @@ export default function KnowMe() {
               />
             </Link>
             <h4 className={style.titleCV}>Curriculum</h4>
-          </div>
+          </div> */}
         </div>
       </section>
       <section className={style.line}>
