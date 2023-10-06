@@ -8,13 +8,13 @@ export default function Nuclio() {
     <div className="containerCertificate">
       <BtnBack />
       <div className="content">
-        <h1 className="mainTitle">Certificado de Nuclio Digital School</h1>
+        <h1 className="mainTitle">Certificado de Google/Coursera</h1>
         <div className="certificateImg">
           <Image
-            src="/certificados/nuclio.png"
+            src="/certificados/preguntas.png"
             width={914}
             height={648}
-            alt="Certificado Nuclio Digital School"
+            alt="Certificado Google. Formula preguntas para tomar decisones basadas en datos"
           />
         </div>
       </div>
