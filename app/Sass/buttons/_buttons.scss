@@ -1,0 +1,20 @@
+.btn {
+  border: 0.15em solid $glow-color;
+  border-radius: 0.5em;
+  color: $glow-color;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: $bg-body;
+  text-shadow: 0 0 0.5em $glow-color;
+  padding: 5px 20px 5px 20px;
+  &:hover {
+    color: $btn-color;
+    background-color: $glow-color;
+    box-shadow: 0 0 1em 0.25em var$glow-color, 0 0 4em 2em $glow-spread-color,
+      inset 0 0 0.75em 0.25em $glow-color;
+  }
+  &:active {
+    box-shadow: 0 0 0.6em 0.25em $glow-color, 0 0 2.5em 2em $glow-spread-color,
+      inset 0 0 0.5em 0.25em $glow-color;
+  }
+}

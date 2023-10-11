@@ -1,0 +1,87 @@
+.mainKnowMe {
+  height: 500px;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  .containerPaperText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .titleText {
+      color: $enhanced-glow-color;
+      text-shadow: 0 0 0.5em $glow-color;
+    }
+    .containerText {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      .text {
+        width: 500px;
+        font-size: 1.2em;
+        color: $glow-color;
+      }
+    }
+  }
+  .line {
+    width: 600px;
+    border-bottom: 1px solid $enhanced-glow-color;
+  }
+  .containerDocs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    .containerPaper {
+      margin-top: 50px;
+      margin-bottom: 50px;
+      width: 500px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      overflow-x: auto;
+      .imgKnow {
+        margin-left: 15px;
+      }
+    }
+  }
+  .containerRrss {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    .iconsRrss {
+      margin-left: 15px;
+    }
+  }
+}
+
+/* .title {
+  font-size: 2.5em;
+  color: $enhanced-glow-color;
+  text-shadow: 0 0 0.5em $glow-color;
+}
+
+.containerCV {
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-x: auto;
+}
+
+.titleCV {
+  color: $enhanced-glow-color;
+  text-shadow: 0 0 0.5em $glow-color;
+}
+
+.titlePaper {
+  color: $enhanced-glow-color;
+  text-shadow: 0 0 0.5em $glow-color;
+}
+
+ */
