@@ -1,4 +1,4 @@
-import BtnBack from "@/app/buttons/BtnBack";
+import BtnBack from "../../buttons/BtnBack";
 import Image from "next/image";
 
 import "../../globals.css";
@@ -11,7 +11,7 @@ export default function Nuclio() {
         <h1 className="mainTitle">Certificado de Google/Coursera</h1>
         <div className="certificateImg">
           <Image
-            src="/certificados/aspectosbasicos.png"
+            src="/certificados/basicos.png"
             width={914}
             height={648}
             alt="Certificado Google. Aspectos básicos: Datos, datos, en todas partes"
