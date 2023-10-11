@@ -10,12 +10,12 @@ export default function Header() {
       <div className="containerImage">
         {icons.map((item, index) => (
           <Image
+            className="img"
             key={index}
             src={item.img}
             alt={item.name}
             width={60}
             height={60}
-            className="imgHeader"
           />
         ))}
       </div>

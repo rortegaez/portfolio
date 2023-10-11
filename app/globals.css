@@ -17,15 +17,15 @@
     font-size: 5em;
     color: #e7ceff;
     text-shadow: 0 0 0.5em #d9b0ff; }
-    .mainHeader .textTitle .containerImage {
-      margin-top: 50px;
-      width: 600px;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center; }
-      .mainHeader .textTitle .containerImage .imgHeader {
-        padding: 10px; }
+  .mainHeader .containerImage {
+    margin-top: 50px;
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center; }
+    .mainHeader .containerImage .img {
+      margin: 10px; }
 
 .mainKnowMe {
   height: 500px;

@@ -7,7 +7,7 @@ export const certificates = [
   {
     name: "aspectosBasicos",
     alt: "Certificado Google Aspectos Básicos: Datos, datos, en todas partes",
-    route: "/certificados/aspectosBasicos.png",
+    route: "/certificados/basicos.png",
   },
   {
     name: "preguntas",
