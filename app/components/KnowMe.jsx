@@ -1,16 +1,16 @@
 import Image from "next/image";
 import Link from "next/link";
-import style from "./knowme.module.css";
+import "../globals.css";
 import { certificates } from "@/app/logic/elements/certificates";
 import { rrss } from "@/app/logic/elements/rrss";
 
 export default function KnowMe() {
   return (
-    <div className={style.mainKnowMe}>
-      <section className={style.containerPaperText}>
-        <h2 className={style.titleText}>Quien soy</h2>
-        <div className={style.containerText}>
-          <div className={style.text}>
+    <div className="mainKnowMe">
+      <section className="containerPaperText">
+        <h2 className="titleText">Quien soy</h2>
+        <div className="containerText">
+          <div className="text">
             <p>
               Después de 18 años, trabajando en unas grandes superficie en la
               venta personalizada. He decidido dejarlo todo para buscar mi
@@ -21,25 +21,13 @@ export default function KnowMe() {
               formación continuada en un sector siempre cambiante y apasionante.
             </p>
           </div>
-          {/* <div className={style.containerCV}>
-            <Link href="/images/cv">
-              <Image
-                src="/RaulOrtegaCV.png"
-                width={150}
-                height={220}
-                alt="Curriculum Vitae"
-                className={style.img}
-              />
-            </Link>
-            <h4 className={style.titleCV}>Curriculum</h4>
-          </div> */}
         </div>
       </section>
-      <section className={style.line}>
+      <section className="line">
         <p></p>
       </section>
-      <section className={style.containerDocs}>
-        <div className={style.containerPaper}>
+      <section className="containerDocs">
+        <div className="containerPaper">
           {certificates.map((item) => (
             <Link href={`/images/${item.name}`}>
               <Image
@@ -47,16 +35,16 @@ export default function KnowMe() {
                 width={200}
                 height={150}
                 alt={item.alt}
-                className={style.img}
+                className="imgKnow"
               />
             </Link>
           ))}
         </div>
       </section>
-      <section className={style.line}>
+      <section className="line">
         <p></p>
       </section>
-      <section className={style.containerRrss}>
+      <section className="containerRrss">
         {rrss.map((item) => (
           <Link href={item.web} target="_blank" rel="noopener noreferrer">
             <Image
@@ -64,7 +52,7 @@ export default function KnowMe() {
               width={40}
               height={40}
               alt={item.alt}
-              className={style.iconsRrss}
+              className="iconsRrss"
             />
           </Link>
         ))}

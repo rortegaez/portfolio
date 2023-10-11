@@ -2,13 +2,13 @@ import Link from "next/link";
 import Image from "next/image";
 import { projects } from "@/app/logic/elements/projects";
 
-import style from "./project.module.css";
+import "../globals.css";
 
 export default function Project() {
   return (
-    <div className={style.containerProject}>
-      <h1 className={style.titleProject}>Proyectos</h1>
-      <div className={style.containerProjects}>
+    <div className="containerProject">
+      <h1 className="titleProject">Proyectos</h1>
+      <div className="containerProjects">
         {projects.map((item, index) => (
           <Link href={item.url} key={index}>
             <Image
@@ -16,7 +16,7 @@ export default function Project() {
               width={200}
               height={120}
               alt={item.alt}
-              className={style.img}
+              className="imgProject"
             />
           </Link>
         ))}

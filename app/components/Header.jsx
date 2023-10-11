@@ -1,13 +1,13 @@
 import Image from "next/image";
-import style from "./header.module.css";
+import "../globals.css";
 
 import { icons } from "@/app/logic/elements/icons";
 
 export default function Header() {
   return (
-    <div className={style.mainHeader}>
-      <h1 className={style.textTitle}> Raúl Ortega</h1>
-      <div className={style.containerImage}>
+    <div className="mainHeader">
+      <h1 className="textTitle"> Raúl Ortega</h1>
+      <div className="containerImage">
         {icons.map((item, index) => (
           <Image
             key={index}
@@ -15,7 +15,7 @@ export default function Header() {
             alt={item.name}
             width={60}
             height={60}
-            className={style.img}
+            className="imgHeader"
           />
         ))}
       </div>
