@@ -1,5 +1,5 @@
 import Image from "next/image";
-import BtnBack from "@/app/buttons/BtnBack";
+import BtnBack from "../../buttons/BtnBack";
 
 import "../../globals.css";
 

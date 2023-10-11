@@ -1,4 +1,4 @@
-import BtnBack from "@/app/buttons/BtnBack";
+import BtnBack from "../../buttons/BtnBack";
 import Image from "next/image";
 
 import "../../globals.css";
