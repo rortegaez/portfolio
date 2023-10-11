@@ -56,6 +56,7 @@
     width: 600px;
     border-bottom: 1px solid #e7ceff; }
   .mainKnowMe .containerDocs {
+    width: 600px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -63,7 +64,7 @@
     .mainKnowMe .containerDocs .containerPaper {
       margin-top: 50px;
       margin-bottom: 50px;
-      width: 500px;
+      width: 600px;
       display: flex;
       flex-direction: row;
       align-items: center;
@@ -77,32 +78,6 @@
     .mainKnowMe .containerRrss .iconsRrss {
       margin-left: 15px; }
 
-/* .title {
-  font-size: 2.5em;
-  color: $enhanced-glow-color;
-  text-shadow: 0 0 0.5em $glow-color;
-}
-
-.containerCV {
-  margin-left: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  overflow-x: auto;
-}
-
-.titleCV {
-  color: $enhanced-glow-color;
-  text-shadow: 0 0 0.5em $glow-color;
-}
-
-.titlePaper {
-  color: $enhanced-glow-color;
-  text-shadow: 0 0 0.5em $glow-color;
-}
-
- */
 .containerProject {
   margin-top: 100px;
   margin-bottom: 50px;
