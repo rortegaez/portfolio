@@ -5,12 +5,12 @@ export const certificates = [
     route: "/certificados/nuclio.png",
   },
   {
-    name: "googleI",
+    name: "aspectosBasicos",
     alt: "Certificado Google Aspectos Básicos: Datos, datos, en todas partes",
     route: "/certificados/aspectosBasicos.png",
   },
   {
-    name: "googleII",
+    name: "preguntas",
     alt: "Certificado Google Formula preguntas para tomar decisiones basadas en datos",
     route: "/certificados/preguntas.png",
   },
