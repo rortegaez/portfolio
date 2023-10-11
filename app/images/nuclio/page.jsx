@@ -1,7 +1,7 @@
-import BtnBack from "@/app/buttons/BtnBack";
+import BtnBack from "../../buttons/BtnBack";
 import Image from "next/image";
 
-import "../imagesGlobals.css";
+import "../../globals.css";
 
 export default function Nuclio() {
   return (

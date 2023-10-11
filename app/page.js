@@ -1,14 +1,16 @@
-import Header from './components/Header/index.jsx'
-import KnowMe from './components/KnowMe/index.jsx'
-import Project from './components/Project/index.jsx'
-import Footer from './components/Footer/index.jsx'
+import Header from './components/Header'
+import KnowMe from './components/KnowMe'
+import Project from './components/Project'
+import Footer from './components/Footer.jsx'
 
-import styles from './page.module.css'
+// import styles from './page.module.css'
+
+import './globals.css'
 
 export default function Home() {
 
   return (
-    <main className={styles.mainBody}>
+    <main className='mainBody'>
       <Header />
       <KnowMe />
       <Project />

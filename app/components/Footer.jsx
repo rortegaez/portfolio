@@ -1,4 +1,4 @@
-import style from "./footer.module.css";
+import "../globals.css";
 
 const fetchDate = () => {
   let today = "";
@@ -9,11 +9,11 @@ const fetchDate = () => {
 
 export default function Footer() {
   return (
-    <div className={style.containerFooter}>
-      <div className={style.line}>
+    <div className="containerFooter">
+      <div className="line">
         <p></p>
       </div>
-      <div className={style.text}>
+      <div className="text">
         <p>Raúl Ortega</p>
       </div>
       <div>{fetchDate()}</div>

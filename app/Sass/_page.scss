@@ -1,6 +1,6 @@
 .mainBody {
   width: 1000px;
-  background-color: var(--bg-body);
+  background: $bg-body;
   display: flex;
   flex-direction: column;
   justify-content: center;

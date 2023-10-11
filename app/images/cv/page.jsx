@@ -1,7 +1,7 @@
 import Image from "next/image";
+import BtnBack from "../../buttons/BtnBack";
 
-import "../imagesGlobals.css";
-import BtnBack from "@/app/buttons/BtnBack";
+import "../../globals.css";
 
 export default function Curriculum() {
   return (
