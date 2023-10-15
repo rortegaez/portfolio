@@ -6,13 +6,15 @@
   flex-direction: column;
   justify-content: center;
   align-items: center; }
+  .mainBody .container {
+    padding-top: 5vw;
+    padding-bottom: 5vw; }
 
 @media (min-width: 350px) and (max-width: 999px) {
   .mainBody {
     background: red; } }
 .mainHeader {
   width: 40vw;
-  height: 15vw;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -51,7 +53,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 3vw; }
+  padding-top: 3vw; }
   .mainKnowMe .containerPaperText {
     display: flex;
     flex-direction: column;
@@ -74,7 +76,7 @@
     width: 40vw;
     border-bottom: 1px solid #e7ceff; }
   .mainKnowMe .containerDocs {
-    width: 35vw;
+    width: 40vw;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -82,14 +84,15 @@
     .mainKnowMe .containerDocs .containerPaper {
       margin-top: 2vw;
       margin-bottom: 2vw;
-      width: 35vw;
+      padding-left: 10vw;
+      width: 30vw;
       display: flex;
       flex-direction: row;
       align-items: center;
       justify-content: center;
       overflow-x: auto; }
       .mainKnowMe .containerDocs .containerPaper .imgKnow {
-        margin-left: 0.5vw;
+        padding-left: 1vw;
         width: 200px;
         height: 150px; }
   .mainKnowMe .containerRrss {
@@ -99,8 +102,8 @@
       margin-left: 0.5vw; }
 
 .containerProject {
-  margin-top: 2vw;
-  margin-bottom: 1vw;
+  padding-top: 2vw;
+  padding-bottom: 1vw;
   width: 40vw;
   display: flex;
   flex-direction: column;
@@ -109,7 +112,8 @@
   .containerProject .titleProject {
     font-size: 2.2em;
     color: #e7ceff;
-    text-shadow: 0 0 0.5em #d9b0ff; }
+    text-shadow: 0 0 0.5em #d9b0ff;
+    padding-bottom: 1.5vw; }
   .containerProject .containerProjects {
     display: flex;
     flex-direction: row;
@@ -117,7 +121,7 @@
     align-items: center;
     overflow-x: auto; }
     .containerProject .containerProjects .imgProject {
-      margin-left: 0.5vw; }
+      padding-left: 0.5vw; }
 
 .containerFooter {
   display: flex;

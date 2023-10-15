@@ -11,10 +11,12 @@ export default function Home() {
 
   return (
     <main className='mainBody'>
-      <Header />
-      <KnowMe />
-      <Project />
-      <Footer />
+      <div className='container'>
+        <Header />
+        <KnowMe />
+        <Project />
+        <Footer />
+      </div>
     </main>
   )
 }

@@ -1,11 +1,11 @@
 .mainKnowMe {
-  // height: 500px;
   width: 40vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 3vw;
+  // margin-top: 3vw;
+  padding-top: 3vw;
   .containerPaperText {
     display: flex;
     flex-direction: column;
@@ -33,7 +33,7 @@
     border-bottom: 1px solid $enhanced-glow-color;
   }
   .containerDocs {
-    width: 35vw;
+    width: 40vw;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -41,14 +41,15 @@
     .containerPaper {
       margin-top: 2vw;
       margin-bottom: 2vw;
-      width: 35vw;
+      padding-left: 10vw;
+      width: 30vw;
       display: flex;
       flex-direction: row;
       align-items: center;
       justify-content: center;
       overflow-x: auto;
       .imgKnow {
-        margin-left: 0.5vw;
+        padding-left: 1vw;
         width: 200px;
         height: 150px;
       }
