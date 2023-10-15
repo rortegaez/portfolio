@@ -1,8 +1,14 @@
 .mainBody {
-  width: 1000px;
+  width: 60vw;
   background: $bg-body;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+@media (min-width: 350px) and (max-width: 999px) {
+  .mainBody {
+    background: red;
+  }
 }

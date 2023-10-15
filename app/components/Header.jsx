@@ -6,7 +6,9 @@ import { icons } from "@/app/logic/elements/icons";
 export default function Header() {
   return (
     <div className="mainHeader">
-      <h1 className="textTitle"> Raúl Ortega</h1>
+      <header className="containerTextTitle">
+        <h1 className="textTitle"> Raúl Ortega</h1>
+      </header>
       <div className="containerImage">
         {icons.map((item, index) => (
           <Image
