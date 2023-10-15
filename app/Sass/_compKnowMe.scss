@@ -1,17 +1,17 @@
 .mainKnowMe {
-  height: 500px;
-  width: 800px;
+  width: 40vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
+  padding-top: 3vw;
   .containerPaperText {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     .titleText {
+      font-size: 3vw;
       color: $enhanced-glow-color;
       text-shadow: 0 0 0.5em $glow-color;
     }
@@ -21,41 +21,67 @@
       align-items: center;
       justify-content: center;
       .text {
-        width: 500px;
-        font-size: 1.2em;
+        width: 35vw;
+        font-size: 1.2vw;
         color: $glow-color;
       }
     }
   }
   .line {
-    width: 600px;
+    width: 40vw;
     border-bottom: 1px solid $enhanced-glow-color;
   }
   .containerDocs {
-    width: 600px;
+    width: 40vw;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
     .containerPaper {
-      margin-top: 50px;
-      margin-bottom: 50px;
-      width: 600px;
+      padding-top: 2vw;
+      padding-left: 10vw;
+      width: 30vw;
       display: flex;
       flex-direction: row;
       align-items: center;
       justify-content: center;
       overflow-x: auto;
       .imgKnow {
-        margin-left: 15px;
+        padding-left: 1vw;
+        width: 15vw;
+        height: 10vw;
       }
     }
   }
   .containerRrss {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 3vw;
+    margin-bottom: 1vw;
     .iconsRrss {
-      margin-left: 15px;
+      margin-left: 0.5vw;
+    }
+  }
+}
+
+@media (min-width: 350px) and (max-width: 999px) {
+  .mainKnowMe {
+    .containerDocs {
+      .containerPaper {
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+        padding-right: 1vw;
+        padding-left: 1vw;
+        .imgKnow {
+          width: 30vw;
+          height: 20vw;
+        }
+      }
+    }
+    .containerRrss {
+      .iconsRrss {
+        width: 30px;
+        height: 30px;
+      }
     }
   }
 }

@@ -5,12 +5,13 @@
   align-items: center;
   color: $enhanced-glow-color;
   .line {
-    width: 600px;
+    width: 40vw;
     border-bottom: 1px solid $enhanced-glow-color;
   }
   .text {
+    font-size: 1vw;
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 2vw;
   }
 }
