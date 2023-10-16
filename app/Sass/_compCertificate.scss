@@ -1,48 +1,52 @@
-.containerProject {
-  padding-bottom: 1vw;
+.containerDocs {
   width: 40vw;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  .titleProject {
+  .titleCertificate {
     font-size: 5vh;
     color: $enhanced-glow-color;
     text-shadow: 0 0 0.5em $glow-color;
     padding-bottom: 1.5vw;
   }
-  .containerProjects {
-    width: 40vw;
+  .containerPaper {
+    padding-top: 2vw;
+    width: 30vw;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     overflow-x: auto;
-    .imgProject {
-      padding: 0.5vw;
-      width: 18vw;
-      height: 10vw;
+    .imgs {
+      .imgKnow {
+        padding-left: 10vw;
+        padding-left: 1vw;
+        width: 15vw;
+        height: 10vw;
+      }
     }
   }
 }
 
 @media (max-width: 480px) {
-  .containerProject {
+  .containerDocs {
     width: 100vw;
-    .titleCertificate {
+    .titleProject {
       font-size: 3vh;
     }
-    .containerProjects {
+    .containerPaper {
       width: 90vw;
       display: flex;
       flex-direction: column;
       overflow-x: hidden;
-      .imgs {
+      padding-right: 1vw;
+      padding-left: 1vw;
+      .imgKnow {
         object-fit: cover;
         width: 80vw;
         height: auto;
-        .imgProject {
+        .img {
           width: 100%;
           height: 100%;
         }

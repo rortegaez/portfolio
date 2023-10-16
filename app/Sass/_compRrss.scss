@@ -1,0 +1,16 @@
+.containerRrss {
+  padding-top: 3vw;
+  padding-bottom: 1vw;
+  .iconsRrss {
+    padding-left: 1.5vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .containerRrss {
+    .iconsRrss {
+      width: 30px;
+      height: 30px;
+    }
+  }
+}

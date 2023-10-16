@@ -1,11 +1,13 @@
 import Image from "next/image";
 import "../globals.css";
 
+import Rrss from "./Rrss";
 import { icons } from "@/app/logic/elements/icons";
 
 export default function Header() {
   return (
     <div className="mainHeader">
+      <Rrss />
       <header className="containerTextTitle">
         <h1 className="textTitle"> Raúl Ortega</h1>
       </header>

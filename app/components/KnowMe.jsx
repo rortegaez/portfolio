@@ -1,8 +1,6 @@
-import Image from "next/image";
-import Link from "next/link";
+import Project from "./Project";
+import Certificate from "./Certificate";
 import "../globals.css";
-import { certificates } from "@/app/logic/elements/certificates";
-import { rrss } from "@/app/logic/elements/rrss";
 
 export default function KnowMe() {
   return (
@@ -26,39 +24,11 @@ export default function KnowMe() {
       <section className="line">
         <p></p>
       </section>
-      <section className="containerDocs">
-        <div className="containerPaper">
-          {certificates.map((item) => (
-            <Link href={`/images/${item.name}`}>
-              <section className="imgKnow">
-                <Image
-                  src={item.route}
-                  width={200}
-                  height={150}
-                  alt={item.alt}
-                  className="img"
-                />
-              </section>
-            </Link>
-          ))}
-        </div>
-      </section>
+      <Project />
       <section className="line">
         <p></p>
       </section>
-      <section className="containerRrss">
-        {rrss.map((item) => (
-          <Link href={item.web} target="_blank" rel="noopener noreferrer">
-            <Image
-              src={item.route}
-              width={40}
-              height={40}
-              alt={item.alt}
-              className="iconsRrss"
-            />
-          </Link>
-        ))}
-      </section>
+      <Certificate />
     </div>
   );
 }
