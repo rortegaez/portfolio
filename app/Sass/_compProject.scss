@@ -6,7 +6,7 @@
   align-items: center;
   justify-content: center;
   .titleProject {
-    font-size: 3vh;
+    font-size: 5vh;
     color: $enhanced-glow-color;
     text-shadow: 0 0 0.5em $glow-color;
     padding-bottom: 1.5vw;
@@ -30,6 +30,9 @@
 @media (max-width: 480px) {
   .containerProject {
     width: 100vw;
+    .titleProject {
+      font-size: 3vh;
+    }
     .containerProjects {
       width: 90vw;
       display: flex;

@@ -12,7 +12,7 @@
     align-items: center;
     justify-content: center;
     .titleText {
-      font-size: 3vh;
+      font-size: 5vh;
       color: $enhanced-glow-color;
       text-shadow: 0 0 0.5em $glow-color;
     }
@@ -22,8 +22,8 @@
       align-items: center;
       justify-content: center;
       .text {
-        width: 35vw;
-        font-size: 1.5vh;
+        width: 40vw;
+        font-size: 2.5vh;
         color: $glow-color;
       }
     }
@@ -68,9 +68,13 @@
     width: 100vw;
     .containerPaperText {
       width: 90vw;
+      .titleText {
+        font-size: 3vh;
+      }
       .containerText {
         .text {
           width: 90vw;
+          font-size: 1.5vh;
         }
       }
     }
@@ -84,7 +88,6 @@
         padding-right: 1vw;
         padding-left: 1vw;
         .imgKnow {
-          background: green;
           object-fit: cover;
           width: 80vw;
           height: auto;
