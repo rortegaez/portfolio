@@ -10,7 +10,7 @@
     padding-top: 5vw;
     padding-bottom: 5vw; }
 
-@media (min-width: 350px) and (max-width: 999px) {
+@media (max-width: 480px) {
   .mainBody {
     width: 100vw; } }
 .mainHeader {
@@ -39,10 +39,16 @@
     .mainHeader .containerImage .img {
       margin: 0.5vw; }
 
-@media (min-width: 350px) and (max-width: 999px) {
-  .mainHeader .containerImage .img {
-    width: 40px;
-    height: 40px; } }
+@media (max-width: 480px) {
+  .mainHeader {
+    width: 100vw; }
+    .mainHeader .containerTextTitle {
+      width: 90vw; }
+    .mainHeader .containerImage {
+      width: 90vw; }
+      .mainHeader .containerImage .img {
+        width: 40px;
+        height: 40px; } }
 .mainKnowMe {
   width: 40vw;
   display: flex;
@@ -51,12 +57,13 @@
   align-items: center;
   padding-top: 3vw; }
   .mainKnowMe .containerPaperText {
+    width: 35vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center; }
     .mainKnowMe .containerPaperText .titleText {
-      font-size: 3vw;
+      font-size: 3vh;
       color: #e7ceff;
       text-shadow: 0 0 0.5em #d9b0ff; }
     .mainKnowMe .containerPaperText .containerText {
@@ -66,7 +73,7 @@
       justify-content: center; }
       .mainKnowMe .containerPaperText .containerText .text {
         width: 35vw;
-        font-size: 1.2vw;
+        font-size: 1.5vh;
         color: #d9b0ff; }
   .mainKnowMe .line {
     width: 40vw;
@@ -96,19 +103,33 @@
     .mainKnowMe .containerRrss .iconsRrss {
       margin-left: 0.5vw; }
 
-@media (min-width: 350px) and (max-width: 999px) {
-  .mainKnowMe .containerDocs .containerPaper {
-    display: flex;
-    flex-direction: column;
-    overflow-x: hidden;
-    padding-right: 1vw;
-    padding-left: 1vw; }
-    .mainKnowMe .containerDocs .containerPaper .imgKnow {
-      width: 30vw;
-      height: 20vw; }
-  .mainKnowMe .containerRrss .iconsRrss {
-    width: 30px;
-    height: 30px; } }
+@media (max-width: 480px) {
+  .mainKnowMe {
+    width: 100vw; }
+    .mainKnowMe .containerPaperText {
+      width: 90vw; }
+      .mainKnowMe .containerPaperText .containerText .text {
+        width: 90vw; }
+    .mainKnowMe .containerDocs {
+      width: 100vw; }
+      .mainKnowMe .containerDocs .containerPaper {
+        width: 90vw;
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+        padding-right: 1vw;
+        padding-left: 1vw; }
+        .mainKnowMe .containerDocs .containerPaper .imgKnow {
+          background: green;
+          object-fit: cover;
+          width: 80vw;
+          height: auto; }
+          .mainKnowMe .containerDocs .containerPaper .imgKnow .img {
+            width: 100%;
+            height: 100%; }
+    .mainKnowMe .containerRrss .iconsRrss {
+      width: 30px;
+      height: 30px; } }
 .containerProject {
   padding-bottom: 1vw;
   width: 40vw;
@@ -117,7 +138,7 @@
   align-items: center;
   justify-content: center; }
   .containerProject .titleProject {
-    font-size: 3vw;
+    font-size: 3vh;
     color: #e7ceff;
     text-shadow: 0 0 0.5em #d9b0ff;
     padding-bottom: 1.5vw; }
@@ -134,14 +155,21 @@
       width: 18vw;
       height: 10vw; }
 
-@media (min-width: 350px) and (max-width: 999px) {
-  .containerProject .containerProjects {
-    display: flex;
-    flex-direction: column;
-    overflow-x: hidden; }
-    .containerProject .containerProjects .imgProject {
-      width: 30vw;
-      height: 15vw; } }
+@media (max-width: 480px) {
+  .containerProject {
+    width: 100vw; }
+    .containerProject .containerProjects {
+      width: 90vw;
+      display: flex;
+      flex-direction: column;
+      overflow-x: hidden; }
+      .containerProject .containerProjects .imgs {
+        object-fit: cover;
+        width: 80vw;
+        height: auto; }
+        .containerProject .containerProjects .imgs .imgProject {
+          width: 100%;
+          height: 100%; } }
 .containerFooter {
   display: flex;
   flex-direction: column;

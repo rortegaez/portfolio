@@ -11,13 +11,15 @@ export default function Project() {
       <div className="containerProjects">
         {projects.map((item, index) => (
           <Link href={item.url} key={index}>
-            <Image
-              src={item.img}
-              width={200}
-              height={120}
-              alt={item.alt}
-              className="imgProject"
-            />
+            <section className="imgs">
+              <Image
+                src={item.img}
+                width={200}
+                height={120}
+                alt={item.alt}
+                className="imgProject"
+              />
+            </section>
           </Link>
         ))}
       </div>

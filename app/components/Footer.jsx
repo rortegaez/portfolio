@@ -16,7 +16,7 @@ export default function Footer() {
       <div className="text">
         <p>Raúl Ortega</p>
       </div>
-      <div>{fetchDate()}</div>
+      <div className="date">{fetchDate()}</div>
     </div>
   );
 }

@@ -30,13 +30,15 @@ export default function KnowMe() {
         <div className="containerPaper">
           {certificates.map((item) => (
             <Link href={`/images/${item.name}`}>
-              <Image
-                src={item.route}
-                width={200}
-                height={150}
-                alt={item.alt}
-                className="imgKnow"
-              />
+              <section className="imgKnow">
+                <Image
+                  src={item.route}
+                  width={200}
+                  height={150}
+                  alt={item.alt}
+                  className="img"
+                />
+              </section>
             </Link>
           ))}
         </div>

@@ -6,12 +6,13 @@
   align-items: center;
   padding-top: 3vw;
   .containerPaperText {
+    width: 35vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     .titleText {
-      font-size: 3vw;
+      font-size: 3vh;
       color: $enhanced-glow-color;
       text-shadow: 0 0 0.5em $glow-color;
     }
@@ -22,7 +23,7 @@
       justify-content: center;
       .text {
         width: 35vw;
-        font-size: 1.2vw;
+        font-size: 1.5vh;
         color: $glow-color;
       }
     }
@@ -62,18 +63,35 @@
   }
 }
 
-@media (min-width: 350px) and (max-width: 999px) {
+@media (max-width: 480px) {
   .mainKnowMe {
+    width: 100vw;
+    .containerPaperText {
+      width: 90vw;
+      .containerText {
+        .text {
+          width: 90vw;
+        }
+      }
+    }
     .containerDocs {
+      width: 100vw;
       .containerPaper {
+        width: 90vw;
         display: flex;
         flex-direction: column;
         overflow-x: hidden;
         padding-right: 1vw;
         padding-left: 1vw;
         .imgKnow {
-          width: 30vw;
-          height: 20vw;
+          background: green;
+          object-fit: cover;
+          width: 80vw;
+          height: auto;
+          .img {
+            width: 100%;
+            height: 100%;
+          }
         }
       }
     }
