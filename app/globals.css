@@ -155,7 +155,7 @@
   border: 0.15em solid #d9b0ff;
   border-radius: 0.5em;
   color: #d9b0ff;
-  font-size: 1em;
+  font-size: 2vh;
   font-weight: bold;
   background: #7d7d7d;
   text-shadow: 0 0 0.5em #d9b0ff;
@@ -184,7 +184,23 @@
       text-shadow: 0 0 0.5em #d9b0ff; }
     .containerCertificate .content .certificateImg {
       box-shadow: 0 0 0.5em 0.25em #d9b0ff, 0 0 4em 1em rgba(191, 123, 255, 0.781), inset 0 0 0.75em 0.25em #d9b0ff; }
+      .containerCertificate .content .certificateImg .photoCertificate {
+        width: 60vw;
+        height: 40vw;
+        transition: transform 0.3s ease; }
+        .containerCertificate .content .certificateImg .photoCertificate.landscape {
+          transform: rotate(90deg); }
 
+@media (max-width: 900px) {
+  .containerCertificate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+    .containerCertificate .content .mainTitle {
+      display: none; }
+    .containerCertificate .content .certificateImg {
+      margin: 3vw; } }
 .containerDocs {
   width: 40vw;
   display: flex;

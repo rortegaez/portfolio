@@ -17,6 +17,31 @@
     .certificateImg {
       box-shadow: 0 0 0.5em 0.25em $glow-color, 0 0 4em 1em $glow-spread-color,
         inset 0 0 0.75em 0.25em $glow-color;
+      .photoCertificate {
+        width: 60vw;
+        height: 40vw;
+        transition: transform 0.3s ease;
+        &.landscape {
+          transform: rotate(90deg);
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .containerCertificate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .content {
+      .mainTitle {
+        display: none;
+      }
+      .certificateImg {
+        margin: 3vw;
+      }
     }
   }
 }
