@@ -6,8 +6,13 @@ import { rrss } from "@/app/logic/elements/rrss";
 export default function Rrss() {
   return (
     <div className="containerRrss">
-      {rrss.map((item) => (
-        <Link href={item.web} target="_blank" rel="noopener noreferrer">
+      {rrss.map((item, index) => (
+        <Link
+          href={item.web}
+          target="_blank"
+          rel="noopener noreferrer"
+          key={index}
+        >
           <Image
             src={item.route}
             width={40}

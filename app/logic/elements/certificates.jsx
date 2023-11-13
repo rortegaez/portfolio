@@ -14,4 +14,9 @@ export const certificates = [
     alt: "Certificado Google Formula preguntas para tomar decisiones basadas en datos",
     route: "/certificados/preguntas.png",
   },
+  {
+    name: "preparar",
+    alt: "Certificado Google Preparar datos para la exploración",
+    route: "/certificados/preparar.png",
+  },
 ];

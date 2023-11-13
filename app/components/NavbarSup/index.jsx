@@ -6,8 +6,10 @@ export default function NavbarSup() {
   return (
     <div>
       <div className={style.mainNav}>
-        {navbar.map((element) => (
-          <button className={style.name}>{element.name}</button>
+        {navbar.map((element, index) => (
+          <button className={style.name} key={index}>
+            {element.name}
+          </button>
         ))}
       </div>
     </div>
