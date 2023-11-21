@@ -216,7 +216,6 @@
     box-sizing: border-box;
     padding-top: 2vw;
     padding-bottom: 2vw;
-    padding-left: 10vw;
     width: 35vw;
     display: flex;
     flex-direction: row;
@@ -227,7 +226,7 @@
       box-sizing: border-box;
       width: 35vw; }
       .containerDocs .containerPaper .imgKnow .img {
-        padding-left: 10vw;
+        padding-left: 1vw;
         width: 15vw;
         height: 10vw; }
 
@@ -237,16 +236,17 @@
     .containerDocs .titleProject {
       font-size: 3vh; }
     .containerDocs .containerPaper {
-      width: 90vw;
+      width: 35vw;
       display: flex;
-      flex-direction: column;
-      overflow-x: hidden;
+      overflow-x: auto;
       padding-right: 1vw;
       padding-left: 1vw; }
       .containerDocs .containerPaper .imgKnow {
         object-fit: cover;
-        width: 80vw;
         height: auto; }
+        .containerDocs .containerPaper .imgKnow:first-child {
+          border: 3px solid red;
+          margin-left: 20px; }
         .containerDocs .containerPaper .imgKnow .img {
           width: 100%;
           height: 100%; } }
