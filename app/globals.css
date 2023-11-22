@@ -220,11 +220,9 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
     overflow-x: auto; }
     .containerDocs .containerPaper .imgKnow {
-      box-sizing: border-box;
-      width: 35vw; }
+      box-sizing: border-box; }
       .containerDocs .containerPaper .imgKnow .img {
         padding-left: 1vw;
         width: 15vw;
@@ -245,7 +243,6 @@
         object-fit: cover;
         height: auto; }
         .containerDocs .containerPaper .imgKnow:first-child {
-          border: 3px solid red;
           margin-left: 20px; }
         .containerDocs .containerPaper .imgKnow .img {
           width: 100%;
