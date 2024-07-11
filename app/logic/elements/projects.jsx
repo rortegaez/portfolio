@@ -13,7 +13,7 @@ export const projects = [
   },
   {
     name: "Ampa Fernando Magallanes",
-    url: "https://ampafront.vercel.app/",
+    url: "https://ampafernandomagallanes.vercel.app/",
     img: "/capturas/ampa.png",
     alt: "Web Ampa Fernando Magallanes",
   },
