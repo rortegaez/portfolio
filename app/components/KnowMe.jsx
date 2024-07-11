@@ -10,11 +10,11 @@ export default function KnowMe() {
         <div className="containerText">
           <div className="text">
             <p>
-              Después de 18 años, trabajando en unas grandes superficie en la
-              venta personalizada. He decidido dejarlo todo para buscar mi
-              camino en la programación, queriendo llevar a este nuevo entorno
-              mi experiencia trabajando en equipo y organizando proyecto y
-              técnicos para que todo llegue a su fin en en las fechas indicadas.
+              Después de 18 años, trabajando en una gran superficie en la venta
+              personalizada. He decidido dejarlo todo para buscar mi camino en
+              la programación, queriendo llevar a este nuevo entorno mi
+              experiencia trabajando en equipo y organizando proyecto y técnicos
+              para que todo llegue a su fin en en las fechas indicadas.
               Comenzando por Full Stack en desarrollo web, pero con una
               formación continuada en un sector siempre cambiante y apasionante.
             </p>

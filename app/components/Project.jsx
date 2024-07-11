@@ -10,7 +10,7 @@ export default function Project() {
       <h1 className="titleProject">Proyectos</h1>
       <div className="containerProjects">
         {projects.map((item, index) => (
-          <Link href={item.url} key={index}>
+          <Link href={item.url} key={index} target="blank" rel="noopener">
             <section className="imgs">
               <Image
                 src={item.img}
