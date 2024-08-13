@@ -12,9 +12,15 @@ export const projects = [
     alt: "Web Todo App",
   },
   {
-    name: "Ampa Fernando Magallanes",
+    name: "Web AMPA Fernando Magallanes",
     url: "https://ampafernandomagallanes.vercel.app/",
     img: "/capturas/ampa.png",
-    alt: "Web Ampa Fernando Magallanes",
+    alt: "web AMPA Fernando Magallanes"
   },
-];
+  {
+    name: "Alimentos para diabeticos",
+    url: "https://alimentosdiabetes.vercel.app/",
+    img: "/capturas/diabetes.png",
+    alt: "Alimentos para diabeticos"
+  }
+]
