@@ -32,6 +32,11 @@ export const icons = [
   {
     name: "git",
     img: "/icons/git.png",
-    alto: "icono git",
+    alt: "icono git",
+  },
+  {
+    name: "astro",
+    img: "/icons/astro.png",
+    alt: "icono astro",
   },
 ];
