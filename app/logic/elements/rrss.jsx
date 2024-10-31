@@ -11,4 +11,10 @@ export const rrss = [
     route: "/rrss/behance.png",
     web: "https://www.behance.net/rortegez",
   },
+  {
+    name: "Git",
+    alt: "Icono de Git",
+    route: "/icons/git.png",
+    web: "https://github.com/rortegaez",
+  },
 ];
